@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+:root{
+  --blue:#cfd6dd;
+  --text:rgb(211, 197, 197);
+  --background:#161515;
+  --social:#b8a8a8;
+  --socialafter:#696363;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+}
+h3,h4,h5{
+  font-size: 16px;
+  color: #5e5a5a;
+  font-family: 'Alex Brush', cursive;
+}
+h3{
+  margin-left: 20px;
+}
+.tag{
+  font-size: 11px;
+}
+h4{
+  margin-left: 40px;
+}
+h5{
+  margin-left: 60px;
+}
