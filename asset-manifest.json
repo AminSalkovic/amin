@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/amin/static/css/main.6c465fb4.css",
+    "main.js": "/amin/static/js/main.65d95139.js",
+    "index.html": "/amin/index.html",
+    "main.6c465fb4.css.map": "/amin/static/css/main.6c465fb4.css.map",
+    "main.65d95139.js.map": "/amin/static/js/main.65d95139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c465fb4.css",
+    "static/js/main.65d95139.js"
+  ]
+}
