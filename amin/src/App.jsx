@@ -1,21 +1,25 @@
-import React from 'react';
-import {Routes ,Route} from 'react-router-dom';
+import React,{useState} from 'react';
+import {Routes,Route} from 'react-router-dom'
 import './App.css';
-import Header from './components/hero/Header'
-import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import Login from './components/login/Login';
+
 
 
 
 function App() {
+  const[email,setEmail]=useState('')
+  const[password,setPassword]=useState('')
+
   return (
     <>
-       <div className="container">
-        <React.Fragment>
-        <Navbar/>
-        <Routes>
-         <Route path={'/'} element={<Header/>} />
-                </Routes>
-        </React.Fragment>
+       <div>
+             {email==='amin' && password==='saki' ? <Home/> : <Login email={setEmail} password={setPassword}/>}
+              <Routes>
+                 <Route path={'/'} element={<Home/>} />
+          
+              </Routes>
+             
        </div> 
     </>
    
